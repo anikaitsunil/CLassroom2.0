@@ -1,0 +1,25 @@
+
+.bench_connect{
+    background-color: aqua;
+    margin: 15px;
+    flex-basis: 100%;
+}
+
+.room {
+    background-image: url("../routes/bg.jpg");
+}
+
+Video {
+    margin-left: 20px;
+}
+
+.logout {
+    border-radius: 5px;
+    position: absolute;
+}
+
+.log
+{   position: absolute;
+    right: 150px;
+    width: 10%;
+}

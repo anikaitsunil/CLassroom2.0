@@ -1,0 +1,22 @@
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkcyan;
+    height: 100vh;
+}
+
+.inputbox{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow:1px 2px 2px rgb(112, 110, 110);
+}
+
+.submitbutton{
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}

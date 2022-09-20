@@ -107,13 +107,13 @@ const CreateRoom = (props) => {
 
     function create() {
         console.log(Pass)
-        if(password=='123456')
+        if(password.length >=6)
         {const id = uuid();
            props.history.push(`/room/${id}`);
         }
         else
         {
-            alert("incorrect password")
+            alert("password badly formatted")
         }
         
     }
